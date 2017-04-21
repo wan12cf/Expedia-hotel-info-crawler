@@ -1,6 +1,11 @@
 # Requirements
 python，scrapy，selenium，geckodriver，firefox
 
+# What does it do
+Crawl hotel info and room price
+
+Hotel: name, area, zipcode, star, rating, rates, room, room size, price, bed(s), sleep guests, address, url
+
 # How to:
 \tu> scrapy crawl quotes -o filename.csv
 not including sold out hotel
@@ -9,7 +14,7 @@ not including sold out hotel
 Locate to \tu\tu，find settings.py
 in 'FEED_EXPORT_FIELDS'
 
-# change target city/date
+# Change target city/date
 open tu/spiders/quotes_spider.py
 	
 modify：
