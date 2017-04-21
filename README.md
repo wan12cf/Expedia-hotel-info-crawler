@@ -1,4 +1,3 @@
-# Expedia-hotel-info-crawler
 # Requirements
 python，scrapy，selenium，geckodriver，firefox
 
