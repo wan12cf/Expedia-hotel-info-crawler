@@ -1,29 +1,29 @@
 # Expedia-hotel-info-crawler
-1.Requirements
-	python，scrapy，selenium，geckodriver，firefox
+# Requirements
+python，scrapy，selenium，geckodriver，firefox
 
-2.How to:
-	\tu> scrapy crawl quotes -o filename.csv
-	not including sold out hotel
+# How to:
+\tu> scrapy crawl quotes -o filename.csv
+not including sold out hotel
 
-3.Change csv column order
-	Locate to \tu\tu，find settings.py
-	in 'FEED_EXPORT_FIELDS'
+# Change csv column order
+Locate to \tu\tu，find settings.py
+in 'FEED_EXPORT_FIELDS'
 
-4.change target city/date
-	open tu/spiders/quotes_spider.py
+# change target city/date
+open tu/spiders/quotes_spider.py
 	
-	modify：
+modify：
 
-# specify city(area), checkin/out date, hotel star
-destInput = "New York"
-checkInDateInput = "04/20/2017"
-checkOutDateInput = "04/21/2017"
-# Tip: set "345" to crawl 3/4/5 class, or just one "4" for 4 class only
-# for some unknown reason, expedia may not show 1 and 2 star filter for clickble
-# besides, if you choose 3 then 5, 4 will also be choosed and non-cancellable        
-# set to 0 to not use any filter.
-hotelstar = "0"
+    # specify city(area), checkin/out date, hotel star
+    destInput = "New York"
+    checkInDateInput = "04/20/2017"
+    checkOutDateInput = "04/21/2017"
+    # Tip: set "345" to crawl 3/4/5 class, or just one "4" for 4 class only
+    # for some unknown reason, expedia may not show 1 and 2 star filter for clickble
+    # besides, if you choose 3 then 5, 4 will also be choosed and non-cancellable        
+    # set to 0 to not use any filter.
+    hotelstar = "0"
 
 	一些属性的说明：
 	hotelstar用来过滤酒店星级，0不勾选任何过滤，'345'/'35'都会选中345星。
