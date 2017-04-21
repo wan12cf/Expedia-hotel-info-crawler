@@ -8,6 +8,7 @@ Hotel: name, area, zipcode, star, rating, rates, room, room size, price, bed(s),
 
 # How to:
 \tu> scrapy crawl quotes -o filename.csv
+
 not including sold out hotel
 
 # Change csv column order
