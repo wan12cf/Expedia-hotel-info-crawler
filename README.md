@@ -19,6 +19,7 @@ in 'FEED_EXPORT_FIELDS'
 open tu/spiders/quotes_spider.py
 	
 modify：
+    
     # specify crucial info: destination, travel dates, crawler run times.
     destInput = "New York"
     timeinterval = 1
@@ -28,6 +29,7 @@ modify：
     # after one date period results finished, crawl (next day + dates) result.
  
 other properties:       
+    
     # Tip: set "345" to crawl 3/4/5 class, or just one "4" for 4 class only
     # for some unknown reason, expedia may not show 1 and 2 star filter for clickble
     # besides, if you choose 3 then 5, 4 will also be choosed and non-cancellable        
