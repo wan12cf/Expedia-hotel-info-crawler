@@ -18,9 +18,9 @@ in 'FEED_EXPORT_FIELDS'
 # Change target city/date
 open tu/spiders/quotes_spider.py
 	
-modify：
+change the crucial info：
     
-    # specify crucial info: destination, travel dates, crawler run times.
+    # destination, travel dates, crawler run times.
     destInput = "New York"
     timeinterval = 1
     crawltimes = 30  
