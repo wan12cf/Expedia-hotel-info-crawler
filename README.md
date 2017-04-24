@@ -42,7 +42,10 @@ other properties:
     # if it is a sponsored result, set 1 to save as usual(may cause duplicate later), set 0 to drop this result.
     # the sponsored hotel may show up as the first 2 and last 2 result.
     sponsorAval = 0
-
+    
+    # if zipcode info is unknown, set 1 to save it as 'null', set 0 to drop this hotel
+    hasZip = 1
+    
     # if size info is unknown, set 1 to save it as 'null', set 0 to drop this room info row
     # about 10%-35%(vary) result items is null, blame expedia        
     sizeUnknow = 0
