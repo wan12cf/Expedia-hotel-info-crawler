@@ -7,11 +7,13 @@ Crawl hotel info and room price
 Hotel: name, area, zipcode, star, rating, rates, room, room size, price, bed(s), sleep guests, address, url
 
 # How to:
-Please ignore tu, cause it's just an older version.
 Use ExpediaCrawler
+
 \ExpediaCrawler> scrapy crawl EC -o filename.csv
 
-not including sold out hotel
+(not including sold out hotel)
+
+Please ignore tu, cause it's just an older version.
 
 # Change csv column order
 Locate to \tu\tu，find settings.py
