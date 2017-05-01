@@ -16,11 +16,11 @@ Use ExpediaCrawler
 Please ignore tu, cause it's just an older version.
 
 # Change csv column order
-Locate to \tu\tu，find settings.py
+Locate to \ExpediaCrawler\tu，find settings.py
 in 'FEED_EXPORT_FIELDS'
 
 # Change target city/date
-open tu/spiders/quotes_spider.py
+open tu/spiders/spider.py
 	
 change the crucial info：
     
