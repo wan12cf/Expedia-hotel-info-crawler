@@ -8,13 +8,10 @@ Hotel: name, area, zipcode, star, rating, rates, room, room size, price, bed(s),
 
 # How to:
 The ExpediaCrawler is older version, use tu instead.
-Use tu
 
 \tu> scrapy crawl EC -o filename.csv
 
 (not including sold out hotel)
-
-Please ignore tu, cause it's just an older version.
 
 # Change csv column order
 Locate to \ExpediaCrawler\tu，find settings.py
