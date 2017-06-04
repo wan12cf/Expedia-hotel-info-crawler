@@ -7,9 +7,10 @@ Crawl hotel info and room price
 Hotel: name, area, zipcode, star, rating, rates, room, room size, price, bed(s), sleep guests, address, url
 
 # How to:
-Use ExpediaCrawler
+The ExpediaCrawler is older version, use tu instead.
+Use tu
 
-\ExpediaCrawler> scrapy crawl EC -o filename.csv
+\tu> scrapy crawl EC -o filename.csv
 
 (not including sold out hotel)
 
